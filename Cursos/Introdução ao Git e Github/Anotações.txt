@@ -1,0 +1,230 @@
+Link para download do Git: https://git-scm.com/
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+O git é um sistema de versionamento de código distribuido criado pelo Linus Torvalds 
+Os sistemas são feitos de forma colaborativa NINGUEM FAZ ND SOZINHO!!
+O linux foi feito de forma colaborativa com uma equipe espalhada pelo mundo todo
+
+Github é feito por uma empresa da microsft
+
+É um repositório online para armazenar o código
+
+Benefícios do git e github
+
+- controle de versão
+- armazenamento em nuvem
+- trabalho em equipe
+- melhorar seu codigo
+- reconhecimento
+
+GUI X CLI
+
+Cli não tem interface gráfica/ é por prompt de comando
+
+Windows.    
+
+Cd navegar nas pastas 
+Cd / vai para o diretorio raiz no linux
+No Windows só vai pro C:\
+cd .. Retrocede pra onde vc estava antes
+
+Dir lista as pastas
+
+Mkdir cria pasta
+Del/ rmdir
+
+Unix
+
+Cd
+Ls
+Mkdir
+Rm -rf
+
+Pra limpar tela no windows cls
+Pra limpar tela no linux clear
+
+
+Criar uma pasta no c:\ chamada workspace
+
+Cd /
+Mkdir workspace
+Cd workspace
+Echo hello
+Echo hello > hello.txt
+Del workspace -> deleta tudo que estava na pasta
+Rmdir workspace -> o diretorio
+
+Objetos no Git
+
+Blobs 
+Tree
+Commit
+
+O git utiliza o SHA1 para encriptar os dados gerados nos codigos
+
+Aula 3 topico 1
+
+Pode ser gerado manualmente pelo echo 'conteudo' | git hash-object --stdin
+
+Ou pelo blob que vc passa o conteúdo assim: echo -e 'blob 9\0conteudo' | openssl sha1
+
+Git gera metadados
+
+As trees(arvores) armazenam blobs 
+A blob sendo o bloco básico de composição a tree armazenando e apontando para tipos de blobs diferentes 
+
+O blob só guarda os SHA do arquivo e não o nome
+As tree guardam os nomes
+Os blobs tem sha1 e as arvored tbm se mudar uma vírgula no arquivo muda o blob e muda a arvore tbm
+
+Commit aponta pra uma arvore, um parente (ultimo commit realizado antes dele), autor e uma mensagem 
+
+Um commit possui também um SHA1
+
+Entra em your profile 
+
+Entra no git bash
+E digita ssh-keygen -t ed25519 -C (seu email)
+Cria uma senha 
+cd /c/Users/leona/.ssh/
+
+ls
+
+cat id_ed25519.pub
+
+eval $(ssh-agent -s)
+
+Entregar nossa chave pro agente
+
+Ssh-add (passar o caminho onde a chave ta) id_ed25519
+
+
+O agent serve para realizar o processo de descriptaçao
+
+
+Gerar a chave passar a chave publica pro github q é a id_ed25519.pub e depois acionar a chave privada que é a id_ed25519
+
+Iniciar o git
+Iniciar o versionamento
+Criar um commit
+
+Git init para iniciar o repositorio
+Git add para mover arquivos e realizar o versionamemto de fato
+Git commit 
+
+Se inicializarmos o git dentro da pasta vai ter um arquivo .git oculto
+
+Dentro do .git tem as pastas
+Hooks/ info/ objects/ refs/
+
+A pasta dos objects é os q contem os blobs, tree e commit
+
+Cofiguraçoes pra poder usar de fato o git
+
+Git config --global user.email "seu email"
+
+Git config --global user.name (seu nome)
+
+Markdown é uma forma mais humanizada de escrever html
+
+# titulo 1
+## titulo 2
+### titulo 3
+
+Html normal
+
+<h1>titulo 1</h1>
+<h2>titulo 2</h2>
+
+
+<h3>titulo 3</h3>
+
+
+
+Untracked arquivos que o git não tem ciencia
+
+Tracked arquivos que o git tem ciencia
+
+Podem ser:
+
+Unmodified não modificado
+Modified modificado
+Staged é onde fica os arquivos que estao se preparando para fzr parte de um outro tipo de agrupamento
+
+Tinhamos um arquivo que era untracked rodamos o git add moveu o arquivo para staged 
+Quando vc for modificar algo em um arquivo o git automaticamente compara o SHA1 desses arquivos
+
+E se eu nao modofiquei nd e excluo ela vai para untracked
+
+Deixa de ser staged e vai pra commit 
+Snapshot do meu codigo fica salvo junto com o commit
+
+Voltam pra modified 
+
+Servidor 
+Repositorio remoto
+
+Ambiente de Desenvolvimiento
+Working directory
+Staging area
+Local repository
+
+Os arquivos inicialmente transitam entre working directory e staging area
+
+Depois da staging area vai para o local repository populando seu repositorio local
+
+Todo oq estiver no seu repositorio local tem q estar commitado
+
+Git status para saber o status dos arquivos
+
+Adicionar mudanças que ainda n estao em staged no caso na hora q movemos o arquivo pra uma nova pasta alem do livro-receitas
+
+Pra fzr isso é dar git add o nome do arquivo e o path pra onde ele foi
+
+
+Git add * move tudo que está no working para staged
+
+Quando da git add nomedoarquivo, git add * ou git add .
+
+Voce ta pegando as modificaçoes e colocando em staged
+
+Ja o git commit -m "msg" ta pegando oq esta em staged e criou o objeto commit passando para seu repositorio local
+
+
+
+
+Git config --list (lista todas as configuraçoes feitas)
+
+Git config --global --unset user.email/name para zerar o email ou nome que foi cadastrado la
+
+Para mandar o repositorio pro github:
+
+Git remote add origin url
+
+Git remote -v Lista os repositorios
+
+Se der algum prob e eu quiser apagar o repositorio e mandar dnv é so dar o git push
+
+
+Quando eu faço alguma alteraçao
+Tenho que dar o 
+git add * 
+Git commit -m "..."
+Git push origin master
+
+
+Conflitos
+
+Quando 2 pessoas estao mexendo no mesmo repositorio e uma delas empurra o codigo para o github e a ourra continua mexendo ainda
+
+Pra mexer no q ta salvo tem q baixar dnv e editar por ai pq oq vc está fznd é desatualizado
+
+Merge
+
+Quando da erro de compatibilidade pq duas ou mais pessoas mexem
+Usa-se o git pull pra puxar
+
+E o git vai automaticamente tentar juntar os dois
+
+
+O Readme serve como uma homepage de repositórios é la que fica informaçoes, links uteis etc

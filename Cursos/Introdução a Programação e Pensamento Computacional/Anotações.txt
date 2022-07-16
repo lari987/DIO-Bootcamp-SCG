@@ -1,0 +1,457 @@
+Area de liguagens de prog é nova e não é uma area tradicional
+
+Junções entre devs e ops (redes)
+
+Pilares da ciencia da computação
+
+Decomposição
+Padrões
+Abstrações
+Algoritmos
+
+Pensamento computacional
+
+Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador
+
+Aprende primeiro no papel pra fortalecer o conhecimento
+
+O pensamento computacional n se restringe a computador
+
+Pensamento sistematico e eficienciente na formulação e resolução de problemas
+
+A soluçao encontrada tem q ser eficiente tanto pra uma maquina quanto para o ser humano
+
+É uma habilidade generalista (que engloba matemática, leitura e escrita)
+
+Decomposição
+Dividir em partes o problema
+E dps unir as partes 
+
+
+Padrões
+Reconhecer similaridades
+
+Quando a bolsa valoriza as pessoas saem comprando
+Quando ela desvaloriza elas vendem e isso faz com que ela desvalorize mais ainda
+
+Input.             Operator.             Output
+
+Apos resolver o prob vc tem que pensar essa é q melhor forma de resolver esse prob? Existem outras mais simples e eficientes? Aperfeiçoamento
+
+Ciclo testar, analisar e refinar
+
+Nós seres humanos temos um dom natural de reconhecer padrões e isso precisa ser passado a maquina através de treinamento com dados
+
+Competencias geradas pelo pensamento computacional
+
+- Pensamento sistematico
+- Colaboração dentro da equipe
+- Criatividade e design
+- Facilitador
+
+Habilidades
+
+- Raciocinio lógico
+- Aperfeiçoamento
+
+Raciocínio lógico é uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema
+
+O raciocínio é exercitado 
+
+Grupos
+
+indução (fenomeno observado)
+Dedução (previsões e explicações) provar q é verdade
+Abdução (apartir de algo observado vc supõe alguma coisa) (premissa)
+
+
+Dado um determinado problema complexo vc quebra ele em partes menores e resolve
+
+A estratégia é fazer a análise dessas partes menores e gerenciáveis
+
+Outra estratégia é usar a síntese que é a construção, combinar os elementos recompondo o problema original 
+Eles tem que fazer sentido
+
+Executar de forma sequencial ou paralela
+
+Dentro da decomposiçao nos temos as variaveis que estao presentes nesses probs pequenos que sao determinados pela segmentaçao do problema maior
+
+Existem maneiras distintas de decompor o mesmo problema 
+
+Fazer uma balança dos recursos que vc tem para resolver o prob
+
+Como funciona a decomposição??
+
+Identificar ou coletar os dados
+Agregar os dados 
+Funcionalidade
+
+Um ex classico de decomposição é na hora de conzinhar
+
+
+Reconhecimento de Padrões
+
+Modelo base
+Estrutura invariante
+
+Fotos em redes sociais comprimem as fotos para armazenar no banco de dados
+
+Compressao de dados no padrao de cores
+
+Os seres vivos fazem reconhecimento de padrao naturalmente
+Aciona no cerebro oq vc ja viu ou q ja teve de experiência
+
+Porque determinar padrões?
+
+Com a finaidade de generalizar, obtendo resolução para problemas diferentes
+
+Os padrões são feitos com base em classes e categorias 
+
+- Grau de similaridade
+- Grupos conhecidos x desconhecidos
+
+Como o computador constroi padroes?
+
+Por comparação
+
+- representando os atributos
+Para que a maquina consiga aprender atraves daquele conceito associado
+Ele armazena esses dados para consultas posteriores
+Regras de decisão
+
+Abstrair
+
+Observar, um ou mais elementos avaliando caracterisiticas e propriedades em separado
+
+Abstração
+
+Processo intelectual de isolamento de um objeto da realidade
+
+Generalizar 
+
+Tornar-se geral mais amplo
+
+Para representar os alunos e suas caracterisiticas na base de dados vou considerar apenas o importante
+
+Conceitos baseados em abstração
+
+- Busca binaria
+- Lista
+- Arvore
+- Grafos
+- Clusteting
+- Merge sort
+
+As arquiteturas em si são abstrações
+
+Prob de melhor caminho
+
+Algoritmos
+
+Instruções para que o computador execute uma tarefa
+
+Programas -> instruções
+
+Ele recebe, manipula e armazena dados
+
+
+Para se criar uma instruçao:
+Vc precisa definir oq será feito e qual a ordem da execução
+
+O algoritmo precisa ser entendido por um humano e uma maquina 
+
+- Codificação é utilizar das linguagens de programação para realizar o programa
+
+Como construir um algoritmo?
+
+Entender o prob
+Definir os dados de entrada
+Definir o processamento
+Definir os dados de saida
+Utilizar um metodo de construção
+Teste e diagnóstico
+
+Podem ser feitos através de:
+
+Narrativa (ling natural)
+Fluxograma (estrutura grafica)
+Pseudocodigo (mais prox de programação)
+
+Problema sobrevivência
+
+Decomposição água, comida e abrigo
+
+Em cada um desses se repete o fogo 
+
+Utilizaçao de mapa para localização na hora de procurar abrigo, o mapa deverá ser criado por abstração 
+
+Técnicas pro 1 estudo de caso
+
+Decomposição
+Reconhecimento de Padrões
+Abstração
+
+Preparando a comida..
+
+Criação de um algoritmo
+
+2 estudo de caso (soma do intervalo)
+
+3 estudo de caso (advinhe o numero)
+
+O que é lógica??
+
+A lógica serve para solucionar algum problema
+E um problema é uma questão
+
+Logica:
+Parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese e inferência) e das operações intelectuais que visam à determinação do que é verdadeiro ou não
+
+- organização coesa
+
+Organizaçao e palnejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa.
+
+Tecnicas de lógica de programação
+
+Linear
+
+Ordenação de elementos por uma única propriedade.
+
+- Execução sequenciada
+
+- Recursos limitados
+
+- Única dimensão
+
+Estruturada
+
+Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato)
+
+Nela eu posso ter mais de uma opção, ela não é linear
+
+Modular
+
+Partes independentes
+Controlada por um conjunto de regras
+
+Dados de entrada
+
+           🔽
+
+Processo de transformação
+
+           🔽
+
+Dados de saída
+
+Tipologia e variaveis
+
+Qual a função de um computador? Processar informações essas informações podem ser dados ou instruções
+
+Numéricos
+Caracteres
+Lógicos -> booleano
+
+Instruções são linguaguem de palavra-chave (vocabulário) de uma determinada liguagem de programação 
+
+
+Estruturas Condicionais
+
+Simples só tem SE
+Composta tem SE e SENÃO
+Encadeada tem SE, SENÃO SE, e SENÃO
+
+And intersecçao
+Or União
+Not 
+
+Laços
+
+Diminiu linhas
+Compreensão facilitada
+Reduçao de erro
+Condição de parada
+
+Enquanto... Faça
+Do while
+
+Repita... até
+
+Para... De... Até... Faça
+For
+
+Vetor e matriz
+
+Vetor é uma matriz unidimensional
+Com tamanho fixo
+
+Matriz possui mXn linha X colunas
+Uma coleção de vetores
+
+Funções
+
+Metodo -> prog ori obj
+Bloco
+Sub-rotina
+
+Uma elemento se conecte com outro e te gere um valor
+
+São blocos que realiza tarefas específicas que podem ser chamadas no seu codigo principal
+
+As funções permitem fazer uma modularizaçao no seu código
+
+Assinatura da função
+(Nome e parâmetros)
+
+Entrada
+Metadados
+O teclado
+Banco de dados
+Arquivos
+
+Saída
+Consiste na impressao dos dados do mundo abstrato 
+
+Tela
+Salvar num arquivo
+Banco de dados
+
+2 tipos de saída, programada e interrupção
+
+A prog pode ser condicional (aguarda o dispositivo) e incondicional 
+
+Casos de saida
+Bem sucedida
+Erro de sintaxe
+Erros de programação
+Prob com a interface
+
+Toda inovação tecnológica começa pelo hardware e depois para o software
+
+O hardware limita a capacidade do software
+
+A algebra booleana é a base para os computadores atuais
+
+Charles babbage e ada lovelance criou instruçoes q validariam as de charles
+
+Alan turing 2 guerra mundial
+Maquina de descriptaçao do inimigo
+
+Turing, neunam e shanon criaram o projeto Dilab que é um codificador de voz
+
+Neunam e turing trabalharam no ACE 
+
+1950 escreveu um artigo sobre se uma maquina conseguiria pensar (IA)
+
+shanom se perguntou se poderia utilizar da algebra booleana
+
+Maquina de tabular
+
+Possibilitou usar essa maquina governo americano
+
+Primeiros computadores
+
+Válvula, harvard mark 1 eniac um computador programável
+Recebiam instruçoes por fios
+
+1943 colossus 1952 edvac (ja tinha o prog armazenado)
+
+Em 1975 bill gates criou a linguagem basic da Microsoft e o mini computador intel 8080
+
+1976 apple 77 apple 2
+80 apple 3
+83 a apple criou o Lisa mas foi um fracasso
+88 Windows 2000
+2001 windows xp
+
+1949 surgiu a primeira linguagem de prog
+Assembly (linguagem de maquina)
+
+90 surgi linguagens de alto nivel (python, ruby e java, C#)
+
+Problemas computacionais
+Problemas de decisao (carater lógico (SIM ou Não)  busca (grafos) e otimização (maximizar ou minimizar uma função)
+
+
+Metodo padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um codigo fonte
+
+Realizo meu codigo com linguagem de alto nivel passo para o compilador ele analisa e traduz o meu programa em um codigo em baixo nivel para o computador entender
+
+Programa fonte é oq eu escrevi
+Programa objeto é oque a maquina vai entender
+
+Tradução 
+(cria um prog objeto para que o computador entenda) 
+- mais rapido
+- prog menores
+C++
+Java
+
+X 
+
+interpretação 
+(executa diretamente sem criar um prog objeto)
+- maior flexibilidade
+- mais lenta
+Javascript
+Ruby
+Python
+
+Coisas a serem levadas em conta ao se escrever um algoritmo
+
+Legibilidade boa leitura
+Redigibilidade bem escrito
+Confiabilidade possa executar oq precisa
+Custo baixo custo
+
+Quando o código vai pro compilador ela faz
+
+Uma analise lexica agrupar os caracteres, identificando as palavras reservadas, variáveis...
+
+Analise sintática corrige o programa se à alguma irregularidade para aquela linguagem
+#a IDE geralmente apresenta
+
+Analise semântica se possui sentido para aquele problema não faz o que é esperado
+#tem que debugar
+
+Paradigmas da programação
+
+São diretrizes e regras
+
+- Orientação à objeto
+
+- procedural
+Chamadas sucessivas e procedimentos separados
+
+- funcional
+Instruções baseadas em funções
+
+- estruturado
+Estrutura de blocos aninhados (sequencia) 
+
+- computação distribuída
+Funções executadas de forma independente
+
+- lógico
+
+
+
+Um objeto tem caracteristicas que sao:
+
+#atributos oque tenho
+
+#comportamento (metodos) oque sou capaz de fazer 
+
+#estados como faço
+
+Benefícios
+
+POO
+Reuso de código
+
+PE
+Problemas especificos e diretos
+
+#Analise de dados com python
+
+Portugol
