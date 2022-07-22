@@ -1,7 +1,7 @@
 # O que são Operadores Relacionais?
 ## Conceituação 
 
-"São simbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado"
+>"São simbolos especiais quais são capazes de realizar comparações entre determinados operandos e, em seguida, retornar um resultado"
 
 ## Tipos:
 - ### **similaridade:** igual, diferente;
@@ -16,7 +16,7 @@ tbm não da pra compara uma string com um char pq a diferença de um dado para o
 # O que são Operadores Lógicos?
 ## Conceituação
 
-"São simbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e, em seguida, retornar um resultado"
+>"São simbolos especiais quais são capazes de realizar comparações lógicas entre operandos lógicos ou expressões e, em seguida, retornar um resultado"
 
 ## Tipos
 - Conjunção
@@ -31,6 +31,14 @@ operação lógica que só é verdadeira quando ambos os operandos ou expressõe
 ### **terminologia:** and
 <br>
 
+| O-E | O-E | R |
+| --- | --- | - |
+|  V  |  V  | V |
+| V   | F   | F |
+| F   | V   | F |
+| F   | F   | F |
+
+
 ## Disjunção:
 operação que só é falsa quando ambos os operandos ou expressões envolvidas são falsas
 
@@ -38,12 +46,28 @@ operação que só é falsa quando ambos os operandos ou expressões envolvidas 
 ### **terminologia:** or
 <br>
 
+| O-E | O-E | R |
+| --- | --- | - |
+|  V  |  V  | V |
+| V   |F    | V | 
+| F   | V   | V |                               
+| F   | F   | F |
+
+
 ## Disjunção Exclusiva:
 operação que só é verdadeira quando ambos os operandos ou expressões envolvidas são opostos
 
-### **simbologia:** ^   
+### **simbologia:** ^   FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 ### **terminologia:** xor
-<br>
+<br>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+| O-E | O-E | R |
+| --- | --- | - |
+|  V  |  V  | FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF |
+| V   |F    | V | 
+| F   | V   | V |                               
+| F   | F   | F |
+
 
 ## Negação:
 operação que inverte o valor lógico de um operando ou expressão
@@ -59,7 +83,7 @@ operação que inverte o valor lógico de um operando ou expressão
 - ### **Operadores shift:** ~, >>, >>>, <<
 
 ## Boas Práticas
-### crie variaveis auxiliares para guardar resultados intermediarios:
+>### crie variaveis auxiliares para guardar resultados intermediarios:
 <br>
 (salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)
 <br>
@@ -78,7 +102,7 @@ _pois facilita o entendimento do código_
 
 # O que é Controle de Fluxo?
 
-"São estruturas que tem a capacidade de direcionar o fluxo de execução de código"
+>"São estruturas que tem a capacidade de direcionar o fluxo de execução de código"
 
 ## Tipos:
 - **Decisão:** if, if-else, if-else-if, if-else-if-else switch e operador ternário
@@ -134,5 +158,17 @@ _pois facilita o entendimento do código_
 - Evitar o efeito "flecha" dos ifs
 - Evitar muitos ifs aninhados
 - Usar a boa prática da aula 2 para diminuir o tamanho do if (_criar variaveis intermediarias_) 
+
+# Blocos, Tipos e Uso
+## Conceituação
+
+>"É um grupo de 0 ou mais códigos dos quais trabalham em conjunto para executar uma operação"
+
+## Tipos
+- LOCAIS: dentro de métodos;
+- ESTÁTICOS: dentro de classes; (orientação ao objetos)
+- INSTANCIA: dentro de classes;
+
+
 
 
