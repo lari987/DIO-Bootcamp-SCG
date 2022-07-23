@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package exercicios.loops;
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class Ex5_Tabuada {
 
         for (int i = 1; i <= 10; i++){
 
-           tabuada = numeroTabuada * i;
+            tabuada = numeroTabuada * i;
             System.out.println(numeroTabuada + " x " + i + " = " + tabuada);
         }
     }

@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package exercicios.loops;
 
 import java.util.Scanner;
 
@@ -11,8 +11,8 @@ public class Ex4_Par_Impar {
         int quantidadePares = 0;
         int quantidadeImpares = 0;
 
-            System.out.println("Escolha um número, para formar a sequencia: ");
-            quantidade = leitor.nextInt();
+        System.out.println("Escolha um número, para formar a sequencia: ");
+        quantidade = leitor.nextInt();
 
         for (int i = 1; i <= quantidade; i++){
             System.out.println("Digite um número: ");

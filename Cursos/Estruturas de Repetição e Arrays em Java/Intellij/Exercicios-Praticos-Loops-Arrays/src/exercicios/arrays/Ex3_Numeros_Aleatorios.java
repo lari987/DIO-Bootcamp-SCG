@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.arrays;
+package exercicios.arrays;
 
 import java.util.Random;
 
@@ -18,3 +18,4 @@ public class Ex3_Numeros_Aleatorios {
         }
     }
 }
+

@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.arrays;
+package exercicios.arrays;
 
 import java.util.Scanner;
 
@@ -15,11 +15,11 @@ public class Ex2_Consoantes {
 
             if (
                     caracteres[i].equals("a") ||
-                    caracteres[i].equals("e") ||
-                    caracteres[i].equals("i") ||
-                    caracteres[i].equals("o") ||
-                    caracteres[i].equals("u")){
-               quantidadeConsoantes++;
+                            caracteres[i].equals("e") ||
+                            caracteres[i].equals("i") ||
+                            caracteres[i].equals("o") ||
+                            caracteres[i].equals("u")){
+                quantidadeConsoantes++;
             }
         }
         System.out.print("vetor = ");

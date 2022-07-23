@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package exercicios.loops;
 
 import java.util.Scanner;
 

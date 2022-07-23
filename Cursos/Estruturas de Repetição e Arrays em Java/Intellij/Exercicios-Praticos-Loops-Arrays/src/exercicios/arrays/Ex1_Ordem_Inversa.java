@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.arrays;
+package exercicios.arrays;
 
 public class Ex1_Ordem_Inversa {
     public static void main(String[] args){
