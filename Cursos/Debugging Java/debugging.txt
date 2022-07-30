@@ -1,0 +1,19 @@
+o programa inicia no metodo main e termina no metodo main
+dumpStack imprimi a stack trace que esta acontecendo
+
+teste de mesa que faz na mao
+
+breakpoint onde vc acha q ta dando o problema
+
+step over -> pula linha
+step into -> entrar dentro do metodo e ver oq ta sendo executado
+force step into -> força a entrada no metodo
+step out -> ja vi onde errei e quero sair/terminar a execução dele
+run -> acelerar a execução
+evaluation expression -> ver o resultado que sai de uma expressão
+step return -> para parar
+
+breakpoint condicional 
+parar quando i = 3
+
+botão direito > breakpoint propriets > condicional
