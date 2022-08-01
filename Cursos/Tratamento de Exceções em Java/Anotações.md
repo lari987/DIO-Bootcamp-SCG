@@ -51,8 +51,23 @@ Errors e Exceptions herdam de Throwable e Throwble herda de Objetos
 - **throws:** Declara que um método pode lançar uma ou várias exceções.
 - **throw:** Lança explicitamente uma exception
 
-
+_1º Exemplo_
 msm dando exception chega no finally 
 
 colocar na string uma string e querer converter a palavra em numero _NumberFormatException_
 divisão por zero _AritmeticalException_
+
+_2º Exemplo_
+
+imprimir o documento no console, todos os metodos utilizados para fazer a impressão precisam ser tratados por lançarem execeções
+
+para resolver o prob usar o IOException pq é mae de FileReader
+erro no imprimirNoconsole
+
+Throws IOException -> só lança a exceção, mas não roda se o nome do arquivo estiver errado
+FileNotFoundException -> caso o nome do arquivo for gravado errado
+IOException -> caso estoure o erro nas proximas linhas (leitura,escrita ou descarregado)
+
+essa separação no tratamento é justamente para indicar melhor ao usuario oq aconteceu
+
+não se coloca uma classe generica antes de uma especifica no try/catch
